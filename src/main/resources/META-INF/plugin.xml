@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.bnep.cloud.idea.plugin</id>
+    <name>BNEP Cloud Starter</name>
+    <version>1.0.0</version>
+    <vendor email="dplinger@163.com">BNEP</vendor>
+    <description><![CDATA[
+        <h2>BNEP Cloud Starter</h2>
+        <p>HTTP API to trigger IDEA Run Configurations. Exposes endpoints on 127.0.0.1:58080:</p>
+        <ul>
+            <li><b>GET /health</b> — health check</li>
+            <li><b>GET /configs</b> — list all run configurations</li>
+            <li><b>POST /run</b> — start a configuration in debug mode</li>
+            <li><b>POST /stop</b> — stop a running configuration</li>
+        </ul>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="com.bnep.idea.plugin.BnepCloudPlugin"/>
+    </extensions>
+</idea-plugin>
