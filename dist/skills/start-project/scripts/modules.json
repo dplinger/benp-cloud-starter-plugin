@@ -1,0 +1,137 @@
+﻿{
+    "coreOrder":  [
+                      "GatewayServerApplication",
+                      "BaseServerApplication"
+                  ],
+    "moduleMap":  {
+                      "绩效分析":  "AnalysisServerApplication",
+                      "非现场监管":  "OffsiteServerApplication",
+                      "AI基础设施":  "AiInfrastructureServerApplication",
+                      "数据转接入":  "DataTransferServerApplication",
+                      "大气管控":  "AtmosphereServerApplication",
+                      "AI基础设施模块":  "AiInfrastructureServerApplication",
+                      "减污降碳":  "CarbonServerApplication",
+                      "大屏":  "BigScreenServerApplication",
+                      "副通用服务":  "CommunalAuxServerApplication",
+                      "排查工具":  "CheckServerApplication",
+                      "网关服务":  "GatewayServerApplication",
+                      "数智档案":  "DossierServerApplication",
+                      "通知中心":  "NoticeServerApplication",
+                      "IOT平台":  "IotServerApplication",
+                      "网关":  "GatewayServerApplication",
+                      "运维中心":  "OperatorServerApplication",
+                      "事件中心":  "EventServerApplication",
+                      "源清单":  "SourceServerApplication",
+                      "流程引擎":  "FlowableServerApplication",
+                      "专项管控":  "ControlServerApplication",
+                      "AI":  "AiInfrastructureServerApplication",
+                      "水环境管控":  "WaterServerApplication",
+                      "数智答":  "AiInfrastructureServerApplication",
+                      "支撑模块":  "MonitorServerApplication",
+                      "base":  "BaseServerApplication",
+                      "基础服务":  "BaseServerApplication",
+                      "通用服务":  "CommunalServerApplication"
+                  },
+    "categoryTable":  {
+                          "基础服务":  [
+                                       {
+                                           "cn":  "网关服务",
+                                           "name":  "GatewayServerApplication"
+                                       },
+                                       {
+                                           "cn":  "基础服务",
+                                           "name":  "BaseServerApplication"
+                                       }
+                                   ],
+                          "基础数据服务":  [
+                                         {
+                                             "cn":  "运维中心",
+                                             "name":  "OperatorServerApplication"
+                                         },
+                                         {
+                                             "cn":  "源清单",
+                                             "name":  "SourceServerApplication"
+                                         },
+                                         {
+                                             "cn":  "水环境管控",
+                                             "name":  "WaterServerApplication"
+                                         },
+                                         {
+                                             "cn":  "IOT平台",
+                                             "name":  "IotServerApplication"
+                                         },
+                                         {
+                                             "cn":  "大气管控",
+                                             "name":  "AtmosphereServerApplication"
+                                         }
+                                     ],
+                          "核心业务服务":  [
+                                         {
+                                             "cn":  "排查工具",
+                                             "name":  "CheckServerApplication"
+                                         },
+                                         {
+                                             "cn":  "数智档案",
+                                             "name":  "DossierServerApplication"
+                                         },
+                                         {
+                                             "cn":  "通知中心",
+                                             "name":  "NoticeServerApplication"
+                                         },
+                                         {
+                                             "cn":  "事件中心",
+                                             "name":  "EventServerApplication"
+                                         },
+                                         {
+                                             "cn":  "通用服务",
+                                             "name":  "CommunalServerApplication"
+                                         },
+                                         {
+                                             "cn":  "副通用服务",
+                                             "name":  "CommunalAuxServerApplication"
+                                         },
+                                         {
+                                             "cn":  "专项管控",
+                                             "name":  "ControlServerApplication"
+                                         },
+                                         {
+                                             "cn":  "数据转接入",
+                                             "name":  "DataTransferServerApplication"
+                                         },
+                                         {
+                                             "cn":  "流程引擎",
+                                             "name":  "FlowableServerApplication"
+                                         },
+                                         {
+                                             "cn":  "非现场监管",
+                                             "name":  "OffsiteServerApplication"
+                                         }
+                                     ],
+                          "上层聚合服务":  [
+                                         {
+                                             "cn":  "减污降碳",
+                                             "name":  "CarbonServerApplication"
+                                         },
+                                         {
+                                             "cn":  "大屏",
+                                             "name":  "BigScreenServerApplication"
+                                         },
+                                         {
+                                             "cn":  "绩效分析",
+                                             "name":  "AnalysisServerApplication"
+                                         }
+                                     ],
+                          "特殊服务":  [
+                                       {
+                                           "cn":  "AI基础设施模块",
+                                           "name":  "AiInfrastructureServerApplication"
+                                       }
+                                   ],
+                          "支撑服务":  [
+                                       {
+                                           "cn":  "支撑模块",
+                                           "name":  "MonitorServerApplication"
+                                       }
+                                   ]
+                      }
+}
